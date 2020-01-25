@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	MooseX
 %define	pnam	Types-Path-Class
 Summary:	MooseX::Types::Path::Class - A Path::Class type library for Moose
